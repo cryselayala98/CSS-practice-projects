@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "Poppins";
+    src: url('./fonts/poppins/Poppins-Regular.ttf');
+}
+
+/*RESET*/
+
+html {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(./img/survey-form-background.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: #FFF;
+}
+h1, #description {
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+    margin-top: 2.5rem;
+}
+
+#description {
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    font-weight: 100;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.container {
+    margin: 0 auto;
+    width: 60vw;
+    min-width: 30vw;
+    background: rgba(27, 27, 50, 0.8);
+    padding: 3em;
+    border-radius: 4px;
+}
+
+fieldset  {
+    display: block;
+    border: none;
+    padding: 0;
+    width: 100%;
+}
+
+label {
+    display: block;
+    font-size: 1.125rem;
+}
+
+/*INPUTS*/
+
+input , select, textarea {
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 0.25rem;
+    border:none;
+    font: inherit;
+    margin: 0.5rem 0 1.25rem 0;
+    padding-left: 1rem;
+}
+
+.label-radio, .label-checkbox{
+    margin-top: 0.5rem;
+}
+
+.last-opt {
+    margin-bottom: 2.5rem;
+}
+
+textarea {
+    height: 7rem;
+    border-radius: 0;
+}
+
+input[type="radio"], input[type="checkbox"] { 
+    width: 1.3rem;
+    height: 1.3rem;
+    vertical-align: middle;
+    margin: 0;
+}
+
+select {
+    color:#495057;
+}
+
+input[type="submit"]{
+    background-color: #37af65;
+    color: #FFF;
+}

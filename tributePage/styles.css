@@ -1,0 +1,141 @@
+/**IMPORT FONTS**/
+
+/* Thin */
+@font-face {
+    font-family: 'Roboto';
+    src: url(./fonts/roboto/Roboto-Thin.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 100;
+}
+
+/* Light */
+@font-face {
+    font-family: 'Roboto';
+    src: url(./fonts/roboto/Roboto-Light.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 300;
+}
+
+/* Normal */
+@font-face {
+    font-family: 'Roboto';
+    src: url(./fonts/roboto/Roboto-Regular.ttf) format('truetype');
+    font-style: normal;    
+    font-weight: 400;
+}
+
+/* Medium */
+@font-face {
+    font-family: 'Roboto';
+    src: url(./fonts/roboto/Roboto-Medium.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* Bold */
+@font-face {
+    font-family: 'Roboto';
+    src: url(./fonts/roboto/Roboto-Bold.ttf) format('truetype');
+    font-style: normal;    
+    font-weight: 700;
+}
+
+/* Black */
+@font-face {
+    font-family: 'Roboto';
+    src: url(./fonts/roboto/Roboto-Black.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 900;
+}
+
+/**RESET**/
+html {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+/**GENERAL PROPERTIES**/
+.bold{
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/**SECTIONS**/
+
+#main {
+    background-color: #eee;
+    margin: 1.5rem auto;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+#main h1{
+    font-size: 2.5rem ;
+}
+
+#img-div{
+    background-color: #fff;
+    margin: auto 0.25rem;
+}
+
+#image{
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+#img-caption {
+    padding: 1rem;
+}
+
+h3{
+    padding: 2.5rem;
+}
+
+ul, em{
+    margin: 0 auto;
+    width: max(50%, 200px);
+    padding: 0;
+}
+
+li{
+    margin:1rem;
+    line-height: 1.5rem;
+}
+
+#emphasize{
+    margin-top: 3rem;
+}
+
+em {
+    display: block;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+em:nth-child(2){
+    padding-top: 1.2rem;
+}
+
+
+.text-link{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
